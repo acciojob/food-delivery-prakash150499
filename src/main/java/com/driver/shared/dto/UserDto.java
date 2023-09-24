@@ -8,10 +8,6 @@ public class UserDto{
 	private String lastName;
 	private String email;
 
-	public UserDto() {
-
-	}
-
 	public long getId() {
 		return id;
 	}

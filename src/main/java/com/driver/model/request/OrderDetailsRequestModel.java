@@ -1,4 +1,4 @@
-package com.driver.service.request;
+package com.driver.model.request;
 
 public class OrderDetailsRequestModel {
 
