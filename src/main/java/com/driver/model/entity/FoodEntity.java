@@ -1,14 +1,9 @@
-package com.driver.io.entity;
+package com.driver.model.entity;
 
-import java.io.Serializable;
-
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
+import javax.persistence.*;
 
 @Entity(name = "foods")
-public class FoodEntity{
+public class FoodEntity {
 	@Id
 	@GeneratedValue
 	private long id;
@@ -24,6 +19,10 @@ public class FoodEntity{
 	
 	@Column(nullable = false)
 	private String foodCategory;
+
+	@ManyToOne
+	@JoinColumn
+	OrderEntity orderEntity;
 
 	public long getId() {
 		return id;

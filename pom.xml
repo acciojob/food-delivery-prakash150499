@@ -9,11 +9,11 @@
 		<version>2.1.4.RELEASE</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.food.delivery.app.ws</groupId>
-	<artifactId>food-delivery-web-app</artifactId>
+	<groupId>com.foodEntity.delivery.app.ws</groupId>
+	<artifactId>foodEntity-delivery-web-app</artifactId>
 	<version>1.0.0-SNAPSHOT</version>
 	<packaging>war</packaging>
-	<name>food-delivery-web-app</name>
+	<name>foodEntity-delivery-web-app</name>
 	<description>Food Delivery Web App End Points</description>
 	<properties>
 		<java.version>1.8</java.version>

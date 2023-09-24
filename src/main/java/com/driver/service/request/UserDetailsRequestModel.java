@@ -1,4 +1,4 @@
-package com.driver.model.request;
+package com.driver.service.request;
 
 public class UserDetailsRequestModel {
 

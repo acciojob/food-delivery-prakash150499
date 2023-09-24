@@ -8,10 +8,10 @@
 		<version>2.1.4.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.food.delivery.app.ws</groupId>
-	<artifactId>food-delivery-web-app</artifactId>
+	<groupId>com.foodEntity.delivery.app.ws</groupId>
+	<artifactId>foodEntity-delivery-web-app</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>food-delivery-web-app</name>
+	<name>foodEntity-delivery-web-app</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
