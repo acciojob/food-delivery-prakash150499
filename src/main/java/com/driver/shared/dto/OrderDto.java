@@ -1,7 +1,13 @@
 package com.driver.shared.dto;
 
-import java.io.Serializable;
+import lombok.*;
 
+import java.io.Serializable;
+@Builder
+@Getter
+@Setter
+@NoArgsConstructor
+@AllArgsConstructor
 public class OrderDto{
 
 	private long id;
@@ -10,53 +16,4 @@ public class OrderDto{
 	private String[] items;
 	private String userId;
 	private boolean status;
-
-	public long getId() {
-		return id;
-	}
-
-	public void setId(long id) {
-		this.id = id;
-	}
-
-	public String getOrderId() {
-		return orderId;
-	}
-
-	public void setOrderId(String orderId) {
-		this.orderId = orderId;
-	}
-
-	public float getCost() {
-		return cost;
-	}
-
-	public void setCost(float cost) {
-		this.cost = cost;
-	}
-
-	public String [] getItems() {
-		return items;
-	}
-
-	public void setItems(String [] items) {
-		this.items = items;
-	}
-
-	public String getUserId() {
-		return userId;
-	}
-
-	public void setUserId(String userId) {
-		this.userId = userId;
-	}
-
-	public boolean isStatus() {
-		return status;
-	}
-
-	public void setStatus(boolean status) {
-		this.status = status;
-	}
-
 }
